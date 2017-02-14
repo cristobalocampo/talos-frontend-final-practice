@@ -1,0 +1,68 @@
+#over-header{
+  .over-header-img{
+    background-image: url("../images/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% center;
+    height: 100vh;
+    color: white;
+    display: table;
+    table-layout: fixed;
+  }
+  .over-header-content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+  }
+}
+
+#we-do-info{
+  p{
+    padding-left: 1.7rem;
+  }
+
+}
+
+#latest-work{
+  .latest-1{
+    background-image: url('../images/portfolio-img1.jpg');
+  }
+  .latest-2{
+    background-image: url('../images/portfolio-img2.jpg');
+  }
+  .latest-3{
+    background-image: url('../images/portfolio-img3.jpg');
+  }
+  .latest-4{
+    background-image: url('../images/portfolio-img4.jpg');
+  }
+  .latest-5{
+    background-image: url('../images/portfolio-img5.jpg');
+  }
+  .latest-6{
+    background-image: url('../images/portfolio-img6.jpg');
+  }
+
+  .image-item{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% center;
+    margin-bottom: 2rem;
+  }
+}
+
+#our-blog{
+  .blog-entry{
+    border: solid;
+    border-width: 1px;
+    border-radius: 1px;
+    padding: 3rem;
+  }
+}
+
