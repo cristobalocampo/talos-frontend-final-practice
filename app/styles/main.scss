@@ -1,3 +1,11 @@
+$color-primary: #63C6AE !default;
+$color-secondary: #E29E4A !default;
+$color-white: #FFF !default;
+$color-black: #606060 !default;
+$color-light-gray: #F9F9F9 !default;
+$brand-primary: $color-primary !default;
+$brand-info: $color-white !default;
+
 // bower:scss
 @import "bower_components/bootstrap/scss/bootstrap.scss";
 // endbower
