@@ -29,15 +29,14 @@
 
 #what_we_do{
   .we-do-info{
-    p{
-      padding-left: 1.7rem;
+    position: relative;
+    i{
+      position: absolute;
     }
 
   }
   .icon-paragraph{
-    h2{
-      display: inline-block;
-    }
+
   }
 }
 
