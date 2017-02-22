@@ -30,8 +30,19 @@
 #what_we_do{
   .we-do-info{
     position: relative;
-    i{
-      position: absolute;
+    span{
+      i{
+        position: absolute;
+        font-size: 18px;
+      }
+    }
+
+    h5{
+      padding-left: 30px;
+      line-height: 13px;
+    }
+    p{
+      padding-left: 30px;
     }
 
   }
